@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+    echo "Use username as param"
+    exit 1
+fi
+
+HOME_DIR=$(eval echo "~$1")
+
+if [ -d "$HOME_DIR" ]; then
+    ls -d "$HOME_DIR"/*/
+else
+    echo "Dir not found"
+    exit 1
+fi

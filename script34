@@ -1,0 +1,9 @@
+#!/bin/bash
+
+chsh -s /bin/sh
+
+echo $SHELL
+
+chsh -s /bin/bash
+
+echo $SHELL

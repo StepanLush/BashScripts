@@ -1,0 +1,41 @@
+#!/bin/bash
+
+#root run check
+if [ "$(id -u)" -ne 0 ]; then
+    echo "Use sudo to run this script"
+    exit 1
+fi
+
+if [ $# -eq 2 ]; then
+#Username and password as params
+    USERNAME=$1
+    NEW_PASSWORD=$2
+
+elif [ $# -eq 1 ]; then
+#Only Username given
+    USERNAME=$1
+    echo -n "Enter new password: "
+    read -s NEW_PASSWORD
+
+elif [ $# -eq 0 ]; then
+#None info is given
+    echo -n "Enter Username: "
+    read USERNAME
+    echo -n "Enter new password: "
+    read -s NEW_PASSWORD
+
+else
+    echo "Wrong input format"
+    exit 1
+fi
+
+if grep -q "^${USERNAME}:" /etc/passwd; then
+    echo "$USERNAME:$NEW_PASSWORD" | chpasswd
+    if [ $? -eq 0 ]; then
+	echo "Success"
+    fi
+else
+    echo "No $USERNAME user found"
+    exit 1
+fi
+

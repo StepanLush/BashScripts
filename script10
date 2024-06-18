@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#set -x
+
+STRING="Hello World"
+
+ASCII_CODE=32
+OCTAL_CODE=$(printf '%03o' $ASCII_CODE)
+ASCII_SYMBOL=$(printf "\\$OCTAL_CODE")
+
+IFS=$ASCII_SYMBOL
+
+read -ra WORDS <<< "$STRING"
+
+for WORD in "${WORDS[@]}"; do
+    echo "$WORD"
+done
+
+#set +x

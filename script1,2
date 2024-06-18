@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#Distrib info
+if [ -f /etc/lsb-release ]; then
+
+    . /etc/lsb-release
+    echo "ID: $DISTRIB_ID"
+    echo "Version: $DISTRIB_RELEASE"
+    echo "Codename: $DISTRIB_CODENAME"
+    echo "Description: $DISTRIB_DESCRIPTION"
+
+else
+    echo "File not found"
+fi
+
+#Core Info
+echo "Core Version: $(uname -r)"

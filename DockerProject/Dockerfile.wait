@@ -1,0 +1,18 @@
+
+FROM alpine:latest
+
+RUN apk add --no-cache nodejs npm bash
+
+WORKDIR /usr/src/app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+COPY wait-for-it.sh /wait-for-it.sh
+
+EXPOSE 8080
+
+CMD ["/wait-for-it.sh", "db:5432", "--", "node", "server.js"]

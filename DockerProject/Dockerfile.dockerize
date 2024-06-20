@@ -1,0 +1,17 @@
+FROM alpine:latest
+
+RUN apk add --no-cache nodejs npm
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+COPY dockerize /usr/local/bin/dockerize
+
+EXPOSE 8080
+
+CMD ["dockerize", "-wait", "tcp://db:5432", "-timeout", "20s", "node", "server.js"]

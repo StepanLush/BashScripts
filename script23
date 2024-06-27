@@ -1,8 +1,0 @@
-#!/bin/bash
-
-ARRAY=("1" "2" "3")
-
-for ELEMENT in "${ARRAY[@]}"; do
-   echo "$ELEMENT"
-done
-

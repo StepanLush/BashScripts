@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#grep -rnw ~ -e "trello"
+
+#Игнорируем двоичные файлы
+grep -rnw ~ -e "trello" --binary-files=without-match
+

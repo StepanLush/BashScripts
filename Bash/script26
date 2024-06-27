@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+   echo "First param must be link to the repo"
+   exit 1
+fi
+
+BASE_URL="$1"
+
+mkdir -p "$DEST_DIR"
+
+wget -r -np -nH --cut-dirs=1 -R "index.html*" "$BASE_URL"
+
+echo "Completed"

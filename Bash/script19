@@ -1,0 +1,9 @@
+#!/bin/bash
+
+touch new_file.txt
+
+cat > new_file.txt << EOL
+first line
+second line
+third line
+EOL

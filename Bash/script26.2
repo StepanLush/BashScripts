@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# Проверка, что передан хотя бы один аргумент
+if [ $# -eq 0 ]; then
+    echo "Использование: $0 <URL>"
+    exit 1
+fi
+
+# Ссылка на проект, переданная первым параметром
+URL=$1
+
+# Извлечение информации из URL
+REPO=$(echo "$URL" | awk -F '/' '{print $4"/"$5}')
+BRANCH=$(echo "$URL" | awk -F '/' '{print $7}')
+DIRECTORY=$(echo "$URL" | awk -F '/' '{for(i=8;i<=NF;i++) printf "/"$i; print ""}' | cut -c2-)
+
+# Функция для рекурсивного скачивания файлов
+download_files() {
+    local api_url=$1
+    local base_path=$2
+
+    # Получение списка файлов и директорий через GitHub API
+    CONTENTS=$(wget -qO- "$api_url" | jq -r '.[] | @base64')
+
+    for ITEM in $CONTENTS; do
+        _jq() {
+            echo $ITEM | base64 --decode | jq -r ${1}
+        }
+
+        ITEM_TYPE=$(_jq '.type')
+        ITEM_PATH=$(_jq '.path')
+        DOWNLOAD_URL=$(_jq '.download_url')
+
+        if [ "$ITEM_TYPE" == "file" ]; then
+            # Скачивание файла
+            wget -q "$DOWNLOAD_URL" -P "$base_path"
+        elif [ "$ITEM_TYPE" == "dir" ]; then
+            # Создание директории и рекурсивное скачивание её содержимого
+            mkdir -p "$base_path/$ITEM_PATH"
+            download_files "https://api.github.com/repos/$REPO/contents/$ITEM_PATH?ref=$BRANCH" "$base_path"
+        fi
+    done
+}
+
+# Создание базовой директории
+BASE_DIR=$(basename "$DIRECTORY")
+mkdir -p "$BASE_DIR"
+
+# Начало рекурсивного скачивания
+download_files "https://api.github.com/repos/$REPO/contents/$DIRECTORY?ref=$BRANCH" "$BASE_DIR"
+
+# Вывод сообщения об успешной загрузке
+echo "Проект успешно загружен в директорию $BASE_DIR"
+
+

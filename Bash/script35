@@ -1,0 +1,30 @@
+#!/bin/bash
+
+
+read -p "Enter your comment for the SSH key: " COMMENT
+
+read -s -p "Enter passphrase for the SSH key: " PASSPHRASE
+echo
+read -s -p "Confirm passphrase: " PASSPHRASE_CONFIRM
+echo
+
+if [ "$PASSPHRASE" != "$PASSPHRASE_CONFIRM" ]; then
+    echo "Passphrases do not match. Please try again."
+    exit 1
+fi
+
+
+KEY_PATH="$HOME/.ssh/id_rsa"
+
+mkdir -p "$HOME/.ssh"
+
+chmod 700 "$HOME/.ssh"
+
+ssh-keygen -t rsa -b 4096 -C "$COMMENT" -f "$KEY_PATH" -N "$PASSPHRASE"
+
+if [ $? -eq 0 ]; then
+    echo "SSH key successfully created and saved to $KEY_PATH"
+else
+    echo "Failed to create SSH key."
+fi
+

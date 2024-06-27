@@ -1,0 +1,584 @@
+
+--2024-06-17 15:06:09--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Carchived&page=1&period=5y&sort_by=stargazer_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,archived&page=1&period=5y&sort_by=stargazer_counts’
+
+
+
+2024-06-17 15:06:10 (13,8 MB/s) - ‘flask-examples/forks?include=active,archived&page=1&period=5y&sort_by=stargazer_counts’ сохранён [271122]
+
+--2024-06-17 15:06:10--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Cstarred&page=1&period=5y&sort_by=stargazer_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 429 Too Many Requests
+2024-06-17 15:06:10 ОШИБКА 429: Too Many Requests.
+
+--2024-06-17 15:06:10--  https://github.com/miguelgrinberg/flask-examples/forks?include=active&page=1&period=5y&sort_by=last_updated
+Подключение к github.com (github.com)|140.82.113.4|:443... соединение установлено.
+HTTP-запрос отправлен. Ожидание ответа… 429 Too Many Requests
+2024-06-17 15:06:10 ОШИБКА 429: Too Many Requests.
+
+--2024-06-17 15:06:10--  https://github.com/miguelgrinberg/flask-examples/forks?include=active&page=1&period=5y&sort_by=open_issue_counts
+Подключение к github.com (github.com)|140.82.113.4|:443... соединение установлено.
+HTTP-запрос отправлен. Ожидание ответа… 429 Too Many Requests
+2024-06-17 15:07:37 ОШИБКА 429: Too Many Requests.
+
+--2024-06-17 15:07:37--  https://github.com/miguelgrinberg/flask-examples/forks?include=active&page=1&period=5y&sort_by=open_pull_request_counts
+Подключение к github.com (github.com)|140.82.113.4|:443... соединение установлено.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active&page=1&period=5y&sort_by=open_pull_request_counts’
+
+     0K .......... .......... .......... .......... .......... 2,20M
+    50K .......... .......... .......... .......... .......... 2,32M
+   100K .......... .......... .......... .......... .......... 3,19M
+   150K .......... .......... .......... .......... .......... 2,64M
+   200K .......... .......... .......... .......... .......... 1,95M
+   250K .......... ....                                        1,99M=0,1s
+
+2024-06-17 15:07:37 (2,37 MB/s) - ‘flask-examples/forks?include=active&page=1&period=5y&sort_by=open_pull_request_counts’ сохранён [270960]
+
+--2024-06-17 15:07:37--  https://github.com/miguelgrinberg/flask-examples/forks?include=active&page=2&period=5y&sort_by=stargazer_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active&page=2&period=5y&sort_by=stargazer_counts’
+
+     0K .......... .......... .......... .......... .......... 1,23M
+    50K .......... .......... .......... .......... .......... 1,17M
+   100K .......... .......... .......... .......... ..........  992K
+   150K .......... .......... .......... .......... .......     400K=0,3s
+
+2024-06-17 15:07:38 (788 KB/s) - ‘flask-examples/forks?include=active&page=2&period=5y&sort_by=stargazer_counts’ сохранён [202579]
+
+--2024-06-17 15:07:38--  https://github.com/miguelgrinberg/flask-examples/forks?include=inactive&page=1&period=2y&sort_by=stargazer_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=inactive&page=1&period=2y&sort_by=stargazer_counts’
+
+     0K .......... .......... .......... .......... ..........  476K
+    50K .......... .......... .......... .......... ..........  292K
+   100K .......... .......... .......... .......... ..........  435K
+   150K .......... ......                                       624K=0,4s
+
+2024-06-17 15:07:39 (399 KB/s) - ‘flask-examples/forks?include=inactive&page=1&period=2y&sort_by=stargazer_counts’ сохранён [170984]
+
+--2024-06-17 15:07:39--  https://github.com/miguelgrinberg/flask-examples/forks?include=network&page=1&period=2y&sort_by=stargazer_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=network&page=1&period=2y&sort_by=stargazer_counts’
+
+     0K .......... .......... .......... .......... ..........  747K
+    50K .......... .......... .......... .......... ..........  462K
+   100K .......... .......... .......... .......... ..........  399K
+   150K .......... ......                                       345K=0,3s
+
+2024-06-17 15:07:39 (477 KB/s) - ‘flask-examples/forks?include=network&page=1&period=2y&sort_by=stargazer_counts’ сохранён [170985]
+
+--2024-06-17 15:07:39--  https://github.com/miguelgrinberg/flask-examples/forks?include=archived&page=1&period=2y&sort_by=stargazer_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=archived&page=1&period=2y&sort_by=stargazer_counts’
+
+     0K .......... .......... .......... .......... ..........  400K
+    50K .......... .......... .......... .......... ..........  645K
+   100K .......... .......... .......... .......... ..........  404K
+   150K .......... ......                                       589K=0,4s
+
+2024-06-17 15:07:40 (470 KB/s) - ‘flask-examples/forks?include=archived&page=1&period=2y&sort_by=stargazer_counts’ сохранён [170998]
+
+--2024-06-17 15:07:40--  https://github.com/miguelgrinberg/flask-examples/forks?include=starred&page=1&period=2y&sort_by=stargazer_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=starred&page=1&period=2y&sort_by=stargazer_counts’
+
+     0K .......... .......... .......... .......... ..........  800K
+    50K .......... .......... .......... .......... ..........  719K
+   100K .......... .......... .......... .......... .......... 1,05M
+   150K .......... ......                                       440K=0,2s
+
+2024-06-17 15:07:41 (769 KB/s) - ‘flask-examples/forks?include=starred&page=1&period=2y&sort_by=stargazer_counts’ сохранён [170987]
+
+--2024-06-17 15:07:41--  https://github.com/miguelgrinberg/flask-examples/forks?include=&page=1&period=2y&sort_by=last_updated
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=&page=1&period=2y&sort_by=last_updated’
+
+     0K .......... .......... .......... .......... ..........  461K
+    50K .......... .......... .......... .......... ..........  533K
+   100K .......... .......... .......... .......... ..........  606K
+   150K .......... ......                                      1,72M=0,3s
+
+2024-06-17 15:07:41 (566 KB/s) - ‘flask-examples/forks?include=&page=1&period=2y&sort_by=last_updated’ сохранён [170657]
+
+--2024-06-17 15:07:41--  https://github.com/miguelgrinberg/flask-examples/forks?include=&page=1&period=2y&sort_by=open_issue_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=&page=1&period=2y&sort_by=open_issue_counts’
+
+     0K .......... .......... .......... .......... .......... 67,6K
+    50K .......... .......... .......... .......... ..........  739K
+   100K .......... .......... .......... .......... ..........  289K
+   150K .......... ......                                       596K=1,0s
+
+2024-06-17 15:07:42 (165 KB/s) - ‘flask-examples/forks?include=&page=1&period=2y&sort_by=open_issue_counts’ сохранён [170752]
+
+--2024-06-17 15:07:42--  https://github.com/miguelgrinberg/flask-examples/forks?include=&page=1&period=2y&sort_by=open_pull_request_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=&page=1&period=2y&sort_by=open_pull_request_counts’
+
+     0K .......... .......... .......... .......... ..........  467K
+    50K .......... .......... .......... .......... ..........  283K
+   100K .......... .......... .......... .......... ..........  793K
+   150K .......... ......                                       506K=0,4s
+
+2024-06-17 15:07:43 (439 KB/s) - ‘flask-examples/forks?include=&page=1&period=2y&sort_by=open_pull_request_counts’ сохранён [170899]
+
+--2024-06-17 15:07:43--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Cinactive%2Cnetwork&page=1&period=2y&sort_by=stargazer_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,inactive,network&page=1&period=2y&sort_by=stargazer_counts’
+
+     0K .......... .......... .......... .......... ..........  379K
+    50K .......... .......... .......... .......... ..........  315K
+   100K .......... .......... .......... .......... ..........  361K
+   150K .......... .......... .......... .......... ..........  340K
+   200K .......... .......                                      356K=0,6s
+
+2024-06-17 15:07:44 (348 KB/s) - ‘flask-examples/forks?include=active,inactive,network&page=1&period=2y&sort_by=stargazer_counts’ сохранён [222674]
+
+--2024-06-17 15:07:44--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Carchived%2Cinactive&page=1&period=2y&sort_by=stargazer_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,archived,inactive&page=1&period=2y&sort_by=stargazer_counts’
+
+     0K .......... .......... .......... .......... ..........  430K
+    50K .......... .......... .......... .......... ..........  387K
+   100K .......... .......... .......... .......... ..........  547K
+   150K .......... .......... .......... .......... ..........  969K
+   200K .......... .......                                      233K=0,5s
+
+2024-06-17 15:07:45 (469 KB/s) - ‘flask-examples/forks?include=active,archived,inactive&page=1&period=2y&sort_by=stargazer_counts’ сохранён [222658]
+
+--2024-06-17 15:07:45--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Cinactive%2Cstarred&page=1&period=2y&sort_by=stargazer_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,inactive,starred&page=1&period=2y&sort_by=stargazer_counts’
+
+     0K .......... .......... .......... .......... ..........  281K
+    50K .......... .......... .......... .......... .......... 79,3K
+   100K .......... .......... .......... .......... ..........  833K
+   150K .......... .......                                      956K=0,9s
+
+2024-06-17 15:07:46 (189 KB/s) - ‘flask-examples/forks?include=active,inactive,starred&page=1&period=2y&sort_by=stargazer_counts’ сохранён [171588]
+
+--2024-06-17 15:07:46--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Cinactive&page=1&period=2y&sort_by=last_updated
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,inactive&page=1&period=2y&sort_by=last_updated’
+
+     0K .......... .......... .......... .......... ..........  164K
+    50K .......... .......... .......... .......... ..........  894K
+   100K .......... .......... .......... .......... ..........  791K
+   150K .......... .......... .......... .......... ..........  239K
+   200K .......... .......                                     67,8K=0,9s
+
+2024-06-17 15:07:48 (245 KB/s) - ‘flask-examples/forks?include=active,inactive&page=1&period=2y&sort_by=last_updated’ сохранён [222288]
+
+--2024-06-17 15:07:48--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Cinactive&page=1&period=2y&sort_by=open_issue_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,inactive&page=1&period=2y&sort_by=open_issue_counts’
+
+     0K .......... .......... .......... .......... ..........  495K
+    50K .......... .......... .......... .......... ..........  545K
+   100K .......... .......... .......... .......... ..........  400K
+   150K .......... .......... .......... .......... ..........  320K
+   200K .......... .......                                      690K=0,5s
+
+2024-06-17 15:07:48 (435 KB/s) - ‘flask-examples/forks?include=active,inactive&page=1&period=2y&sort_by=open_issue_counts’ сохранён [222373]
+
+--2024-06-17 15:07:48--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Cinactive&page=1&period=2y&sort_by=open_pull_request_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,inactive&page=1&period=2y&sort_by=open_pull_request_counts’
+
+     0K .......... .......... .......... .......... .......... 1014K
+    50K .......... .......... .......... .......... ..........  301K
+   100K .......... .......... .......... .......... ..........  539K
+   150K .......... .......... .......... .......... ..........  291K
+   200K .......... .......                                      468K=0,5s
+
+2024-06-17 15:07:49 (420 KB/s) - ‘flask-examples/forks?include=active,inactive&page=1&period=2y&sort_by=open_pull_request_counts’ сохранён [222526]
+
+--2024-06-17 15:07:49--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Carchived%2Cnetwork&page=1&period=2y&sort_by=stargazer_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,archived,network&page=1&period=2y&sort_by=stargazer_counts’
+
+     0K .......... .......... .......... .......... ..........  434K
+    50K .......... .......... .......... .......... ..........  442K
+   100K .......... .......... .......... .......... ..........  669K
+   150K .......... .......... .......... .......... ..........  356K
+   200K .......... .......                                      882K=0,5s
+
+2024-06-17 15:07:50 (469 KB/s) - ‘flask-examples/forks?include=active,archived,network&page=1&period=2y&sort_by=stargazer_counts’ сохранён [222644]
+
+flask-examples/forks?include=active,archived,network&page=1&period=2y&sort_by=stargazer_counts: Нет такого файла или каталога
+--2024-06-17 15:07:50--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Cnetwork%2Cstarred&page=1&period=2y&sort_by=stargazer_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,network,starred&page=1&period=2y&sort_by=stargazer_counts’
+
+     0K .......... .......... .......... .......... ..........  762K
+    50K .......... .......... .......... .......... ..........  573K
+   100K .......... .......... .......... .......... ..........  433K
+   150K .......... .......                                      471K=0,3s
+
+2024-06-17 15:07:51 (548 KB/s) - ‘flask-examples/forks?include=active,network,starred&page=1&period=2y&sort_by=stargazer_counts’ сохранён [171570]
+
+--2024-06-17 15:07:51--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Cnetwork&page=1&period=2y&sort_by=last_updated
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,network&page=1&period=2y&sort_by=last_updated’
+
+     0K .......... .......... .......... .......... ..........  313K
+    50K .......... .......... .......... .......... ..........  444K
+   100K .......... .......... .......... .......... ..........  904K
+   150K .......... .......... .......... .......... ..........  798K
+   200K .......... .......                                      720K=0,4s
+
+2024-06-17 15:07:52 (524 KB/s) - ‘flask-examples/forks?include=active,network&page=1&period=2y&sort_by=last_updated’ сохранён [222254]
+
+--2024-06-17 15:07:52--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Cnetwork&page=1&period=2y&sort_by=open_issue_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,network&page=1&period=2y&sort_by=open_issue_counts’
+
+     0K .......... .......... .......... .......... ..........  398K
+    50K .......... .......... .......... .......... ..........  822K
+   100K .......... .......... .......... .......... ..........  800K
+   150K .......... .......... .......... .......... .......... 1,02M
+   200K .......... .......                                      909K=0,3s
+
+2024-06-17 15:07:52 (687 KB/s) - ‘flask-examples/forks?include=active,network&page=1&period=2y&sort_by=open_issue_counts’ сохранён [222385]
+
+--2024-06-17 15:07:52--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Cnetwork&page=1&period=2y&sort_by=open_pull_request_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,network&page=1&period=2y&sort_by=open_pull_request_counts’
+
+     0K .......... .......... .......... .......... ..........  150K
+    50K .......... .......... .......... .......... ..........  730K
+   100K .......... .......... .......... .......... ..........  410K
+   150K .......... .......... .......... .......... ..........  129K
+   200K .......... .......                                      528K=0,9s
+
+2024-06-17 15:07:54 (230 KB/s) - ‘flask-examples/forks?include=active,network&page=1&period=2y&sort_by=open_pull_request_counts’ сохранён [222500]
+
+--2024-06-17 15:07:54--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Carchived%2Cstarred&page=1&period=2y&sort_by=stargazer_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,archived,starred&page=1&period=2y&sort_by=stargazer_counts’
+
+     0K .......... .......... .......... .......... ..........  782K
+    50K .......... .......... .......... .......... ..........  704K
+   100K .......... .......... .......... .......... ..........  367K
+   150K .......... .......                                      743K=0,3s
+
+2024-06-17 15:07:54 (568 KB/s) - ‘flask-examples/forks?include=active,archived,starred&page=1&period=2y&sort_by=stargazer_counts’ сохранён [171634]
+
+--2024-06-17 15:07:54--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Carchived&page=1&period=2y&sort_by=last_updated
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,archived&page=1&period=2y&sort_by=last_updated’
+
+     0K .......... .......... .......... .......... ..........  321K
+    50K .......... .......... .......... .......... ..........  103K
+   100K .......... .......... .......... .......... .......... 29,2M
+   150K .......... .......... .......... .......... .......... 1,08M
+   200K .......... .......                                      299K=0,7s
+
+2024-06-17 15:07:55 (292 KB/s) - ‘flask-examples/forks?include=active,archived&page=1&period=2y&sort_by=last_updated’ сохранён [222288]
+
+--2024-06-17 15:07:55--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Carchived&page=1&period=2y&sort_by=open_issue_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,archived&page=1&period=2y&sort_by=open_issue_counts’
+
+     0K .......... .......... .......... .......... .......... 88,6K
+    50K .......... .......... .......... .......... ..........  949K
+   100K .......... .......... .......... .......... ..........  301K
+   150K .......... .......... .......... .......... ..........  280K
+   200K .......... .......                                      731K=1,0s
+
+2024-06-17 15:07:57 (220 KB/s) - ‘flask-examples/forks?include=active,archived&page=1&period=2y&sort_by=open_issue_counts’ сохранён [222381]
+
+--2024-06-17 15:07:57--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Carchived&page=1&period=2y&sort_by=open_pull_request_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,archived&page=1&period=2y&sort_by=open_pull_request_counts’
+
+     0K .......... .......... .......... .......... .......... 1,03M
+    50K .......... .......... .......... .......... ..........  542K
+   100K .......... .......... .......... .......... ..........  493K
+   150K .......... .......... .......... .......... ..........  492K
+   200K .......... .......                                      534K=0,4s
+
+2024-06-17 15:07:58 (579 KB/s) - ‘flask-examples/forks?include=active,archived&page=1&period=2y&sort_by=open_pull_request_counts’ сохранён [222552]
+
+--2024-06-17 15:07:58--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Cstarred&page=1&period=2y&sort_by=last_updated
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,starred&page=1&period=2y&sort_by=last_updated’
+
+     0K .......... .......... .......... .......... ..........  534K
+    50K .......... .......... .......... .......... ..........  370K
+   100K .......... .......... .......... .......... ..........  439K
+   150K .......... .......                                      721K=0,4s
+
+2024-06-17 15:07:58 (456 KB/s) - ‘flask-examples/forks?include=active,starred&page=1&period=2y&sort_by=last_updated’ сохранён [171212]
+
+--2024-06-17 15:07:58--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Cstarred&page=1&period=2y&sort_by=open_issue_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,starred&page=1&period=2y&sort_by=open_issue_counts’
+
+     0K .......... .......... .......... .......... ..........  885K
+    50K .......... .......... .......... .......... .......... 1,03M
+   100K .......... .......... .......... .......... ..........  793K
+   150K .......... .......                                      577K=0,2s
+
+2024-06-17 15:07:59 (850 KB/s) - ‘flask-examples/forks?include=active,starred&page=1&period=2y&sort_by=open_issue_counts’ сохранён [171327]
+
+--2024-06-17 15:07:59--  https://github.com/miguelgrinberg/flask-examples/forks?include=active%2Cstarred&page=1&period=2y&sort_by=open_pull_request_counts
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/forks?include=active,starred&page=1&period=2y&sort_by=open_pull_request_counts’
+
+     0K .......... .......... .......... .......... ..........  667K
+    50K .......... .......... .......... .......... ..........  507K
+   100K .......... .......... .......... .......... ..........  929K
+   150K .......... .......                                     74,6K=0,5s
+
+2024-06-17 15:08:00 (363 KB/s) - ‘flask-examples/forks?include=active,starred&page=1&period=2y&sort_by=open_pull_request_counts’ сохранён [171452]
+
+--2024-06-17 15:08:00--  https://github.com/miguelgrinberg/flask-examples/labels?sort=name-asc
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/labels?sort=name-asc’
+
+     0K .......... .......... .......... .......... ..........  493K
+    50K .......... .......... .......... .......... ..........  327K
+   100K .......... .......... .......... .......... ..........  393K
+   150K ..........                                              627K=0,4s
+
+2024-06-17 15:08:00 (403 KB/s) - ‘flask-examples/labels?sort=name-asc’ сохранён [164521]
+
+--2024-06-17 15:08:00--  https://github.com/miguelgrinberg/flask-examples/labels?sort=name-desc
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/labels?sort=name-desc’
+
+     0K .......... .......... .......... .......... ..........  615K
+    50K .......... .......... .......... .......... .......... 1,02M
+   100K .......... .......... .......... .......... ..........  558K
+   150K ..........                                              589K=0,2s
+
+2024-06-17 15:08:01 (678 KB/s) - ‘flask-examples/labels?sort=name-desc’ сохранён [164546]
+
+--2024-06-17 15:08:01--  https://github.com/miguelgrinberg/flask-examples/labels?sort=count-desc
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/labels?sort=count-desc’
+
+     0K .......... .......... .......... .......... ..........  718K
+    50K .......... .......... .......... .......... ..........  392K
+   100K .......... .......... .......... .......... .......... 56,9K
+   150K ..........                                              406K=1,1s
+
+2024-06-17 15:08:02 (146 KB/s) - ‘flask-examples/labels?sort=count-desc’ сохранён [164543]
+
+--2024-06-17 15:08:02--  https://github.com/miguelgrinberg/flask-examples/labels?sort=count-asc
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/labels?sort=count-asc’
+
+     0K .......... .......... .......... .......... ..........  510K
+    50K .......... .......... .......... .......... ..........  892K
+   100K .......... .......... .......... .......... ..........  146K
+   150K ..........                                              587K=0,5s
+
+2024-06-17 15:08:03 (312 KB/s) - ‘flask-examples/labels?sort=count-asc’ сохранён [164520]
+
+--2024-06-17 15:08:03--  https://github.com/miguelgrinberg/flask-examples/labels/bug
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/labels/bug’
+
+     0K .......... .......... .......... .......... ..........  509K
+    50K .......... .......... .......... .......... ..........  458K
+   100K .......... .......... .......... .......... ..........  142K
+   150K .......... .......... .......... .                      778K=0,6s
+
+2024-06-17 15:08:04 (302 KB/s) - ‘flask-examples/labels/bug’ сохранён [185823]
+
+--2024-06-17 15:08:04--  https://github.com/miguelgrinberg/flask-examples/labels/duplicate
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/labels/duplicate’
+
+     0K .......... .......... .......... .......... ..........  128K
+    50K .......... .......... .......... .......... ..........  252K
+   100K .......... .......... .......... .......... ..........  325K
+   150K .......... .......... .......... .                      704K=0,8s
+
+2024-06-17 15:08:05 (231 KB/s) - ‘flask-examples/labels/duplicate’ сохранён [186074]
+
+--2024-06-17 15:08:05--  https://github.com/miguelgrinberg/flask-examples/labels/enhancement
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/labels/enhancement’
+
+     0K .......... .......... .......... .......... ..........  438K
+    50K .......... .......... .......... .......... ..........  500K
+   100K .......... .......... .......... .......... ..........  474K
+   150K .......... .......... .......... .                      478K=0,4s
+
+2024-06-17 15:08:06 (471 KB/s) - ‘flask-examples/labels/enhancement’ сохранён [186155]
+
+--2024-06-17 15:08:06--  https://github.com/miguelgrinberg/flask-examples/labels/help%20wanted
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/labels/help wanted’
+
+     0K .......... .......... .......... .......... ..........  140K
+    50K .......... .......... .......... .......... ..........  417K
+   100K .......... .......... .......... .......... ..........  294K
+   150K .......... .......... .......... ..                     489K=0,7s
+
+2024-06-17 15:08:07 (256 KB/s) - ‘flask-examples/labels/help wanted’ сохранён [186394]
+
+--2024-06-17 15:08:07--  https://github.com/miguelgrinberg/flask-examples/labels/invalid
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/labels/invalid’
+
+     0K .......... .......... .......... .......... ..........  337K
+    50K .......... .......... .......... .......... .......... 82,4K
+   100K .......... .......... .......... .......... ..........  627K
+   150K .......... .......... .......... .                      380K=0,9s
+
+2024-06-17 15:08:08 (198 KB/s) - ‘flask-examples/labels/invalid’ сохранён [186080]
+
+--2024-06-17 15:08:08--  https://github.com/miguelgrinberg/flask-examples/labels/question
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/labels/question’
+
+     0K .......... .......... .......... .......... ..........  357K
+    50K .......... .......... .......... .......... ..........  143K
+   100K .......... .......... .......... .......... ..........  223K
+   150K .......... .......... .......... .                      383K=0,8s
+
+2024-06-17 15:08:09 (228 KB/s) - ‘flask-examples/labels/question’ сохранён [186108]
+
+--2024-06-17 15:08:09--  https://github.com/miguelgrinberg/flask-examples/labels/wontfix
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/labels/wontfix’
+
+     0K .......... .......... .......... .......... ..........  377K
+    50K .......... .......... .......... .......... ..........  426K
+   100K .......... .......... .......... .......... ..........  905K
+   150K .......... .......... .......... .                      115K=0,6s
+
+2024-06-17 15:08:10 (314 KB/s) - ‘flask-examples/labels/wontfix’ сохранён [185989]
+
+--2024-06-17 15:08:10--  https://github.com/miguelgrinberg/flask-examples/milestones?state=open
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/milestones?state=open’
+
+     0K .......... .......... .......... .......... ..........  824K
+    50K .......... .......... .......... .......... .......... 1,15M
+   100K .......... .......... .......... .......... ..........  917K
+   150K .....                                                   445K=0,2s
+
+2024-06-17 15:08:11 (913 KB/s) - ‘flask-examples/milestones?state=open’ сохранён [159564]
+
+--2024-06-17 15:08:11--  https://github.com/miguelgrinberg/flask-examples/milestones?state=closed
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/milestones?state=closed’
+
+     0K .......... .......... .......... .......... ..........  816K
+    50K .......... .......... .......... .......... ..........  947K
+   100K .......... .......... .......... .......... ..........  478K
+   150K .....                                                  83,9M=0,2s
+
+2024-06-17 15:08:11 (712 KB/s) - ‘flask-examples/milestones?state=closed’ сохранён [159592]
+
+--2024-06-17 15:08:11--  https://github.com/miguelgrinberg/flask-examples/milestones?direction=desc&sort=due_date&state=open
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/milestones?direction=desc&sort=due_date&state=open’
+
+     0K .......... .......... .......... .......... ..........  521K
+    50K .......... .......... .......... .......... .......... 1,39M
+   100K .......... .......... .......... .......... ..........  230K
+   150K ......                                                  119K=0,4s
+
+2024-06-17 15:08:12 (391 KB/s) - ‘flask-examples/milestones?direction=desc&sort=due_date&state=open’ сохранён [159897]
+
+--2024-06-17 15:08:12--  https://github.com/miguelgrinberg/flask-examples/milestones?direction=asc&sort=due_date&state=open
+Повторное использование соединения с github.com:443.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: нет данных [text/html]
+Сохранение в: ‘flask-examples/milestones?direction=asc&sort=due_date&state=open’
+
+     0K .......... .......... .......... .......... ..........  539K
+    50K .......... .......... .......... .......... ..........  773K
+   100K .......... .......... .......... .......... ..........  206K
+   150K ......

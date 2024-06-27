@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+    echo "No JSON file provided."
+    exit 1
+fi
+
+JSON_FILE=$1
+
+
+if [ ! -f "$JSON_FILE" ]; then
+    echo "File not found: $JSON_FILE"
+    exit 1
+fi
+
+jq -r '.[] | .species' "$JSON_FILE"
+

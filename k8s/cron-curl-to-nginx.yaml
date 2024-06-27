@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: curl-nginx
+  namespace: task-namespace
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: curl
+            image: curlimages/curl:latest
+            args:
+            - /bin/sh
+            - -c
+            - curl -s -o /dev/null -w "%{http_code}" http://nginx-service.task-namespace.svc.cluster.local:80
+          restartPolicy: OnFailure

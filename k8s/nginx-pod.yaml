@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: static-nginx-pod
+  namespace: task-namespace
+  labels:
+    app: static-nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:latest
+    command: ["/bin/sh", "-c"]
+    args:
+    - while true; do
+        echo -e "HTTP/1.1 200 OK\n\nversion 1" | nc -l -p 80;
+      done
+    ports:
+    - containerPort: 80
+
